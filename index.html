@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>Lifestyle Store</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"><a href="index.html" class="navbar-brand">Lifestyle Store</a></div>
+            <div><ul class="nav navbar-nav navbar-right">
+                <li><a href="signup_page.html"><span class="glyphicon glyphicon-user">SignUp</span></a></li>
+                <li><a href="login_page.html"><span class="glyphicon glyphicon-share">Login</span></a></li>
+            </ul></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        
+                <div class="bann img-responsive">
+                    <div class="jumbotron"id="jumbo-index">
+                        <h1>We sell Lifestyle</h1>
+                        <p>Flat 40% OFF on premium brands.</p><br>
+                        <div class="product-page btn-danger"><a href="products_page.html" id="a1">Shop Now</a></div>
+                    </div>
+                </div>
+            
+        <br><br><br>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-3">
+                <div class="thumbnail">
+                    <a href="products_page.html"><img src="1.jpg" alt="camera.jpg"></a>
+                    <h4>Cameras</h4>
+                    <p>Choose among the best available in the world.</p>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="thumbnail">
+                    <a href="products_page.html"><img src="7.jpg" alt="watches.jpg"></a>
+                    <h4>Watches</h4>
+                    <p>Original watches from the best brands.</p>
+                    <!-- <button id='two' onclick="tw">0</button> -->
+                </div>
+            </div>
+            <div class="col-xs-3 ">
+                <div class="thumbnail">
+                    <a href="products_page.html"><img src="8.jpg" alt="shirts.jpg"></a>
+                    <h4>Shirts</h4>
+                    <p>Our exquisite collection of shirts.</p>
+                    <!-- <button id='three' onclick="th">0</button> -->
+                </div>
+            </div>
+
+            <script>
+                function o()
+                {
+                    n1 = document.getElementById('one').innerHTML;
+                    num1 = n1++;
+                    document.getElementById('one').innerHTML=num1;
+                }
+                function tw()
+                {
+                    n2 = document.getElementById('two').innerHTML;
+                    num2 = n2++;
+                    document.getElementById('two').innerHTML=num2;
+                }
+                function th()
+                {
+                    n3 = document.getElementById('three').innerHTML;
+                    num3 = n3++;
+                    document.getElementById('three').innerHTML=num3;
+                }
+
+
+
+
+
+
+
+            </script>
+
+
+
+
+        </div>
+    </div><br><br><br>
+    <div class="footer navbar-fixed-bottom">Copyright &copy; Lifestyle Store. | Contact us:+91 90000 00000</div>
+</body>
+</html>
